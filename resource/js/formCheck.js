@@ -153,6 +153,7 @@ function fnFormCheck(e) {
                     window.dataLayer.push({
                         'event': 'formSubmitted'
                     });
+                    console.log('data: ', window.dataLayer);
                     alert('表單已送出，謝謝您！');
                     window.location.href = 'index.html';
                 } else {
