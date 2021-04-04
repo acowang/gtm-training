@@ -149,7 +149,8 @@ function fnFormCheck(e) {
                 resultValue = JSON.parse(resultValue);
                 if (resultValue.success) {
                     fnLoaderHide();
-                    dataLayer.push({
+                    window.dataLayer = window.dataLayer || [];
+                    window.dataLayer.push({
                         'event': 'formSubmitted'
                     });
                     alert('表單已送出，謝謝您！');
