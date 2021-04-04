@@ -28,7 +28,7 @@ function radioCheck(name) {
     return checked;
 }
 
-function fnFormCheck(e) {
+function fFormCheck(e) {
     e.preventDefault();
     //  let oForm = document.form1;
     var oForm = document.form1;
