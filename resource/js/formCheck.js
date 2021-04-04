@@ -154,8 +154,8 @@ function fnFormCheck(e) {
                         'event': 'formSubmitted'
                     });
                     console.log('data: ', window.dataLayer);
-                    alert('表單已送出，謝謝您！');
-                    window.location.href = 'index.html';
+                    //alert('表單已送出，謝謝您！');
+                    //window.location.href = 'index.html';
                 } else {
                     fnLoaderHide();
                     alert('送出失敗，請重新填寫！');
